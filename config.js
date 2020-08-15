@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Mumblecoder',
     photo: '/photo.jpg',
-    bio: '쓸모있는 개발자가 되기 위해 고군분투하는 과정이  ',
+    bio: '쓸모있는 개발자가 되기 위해 고군분투하는 과정이 담긴 블로그',
     contacts: {
       email: '',
       facebook: '#',
