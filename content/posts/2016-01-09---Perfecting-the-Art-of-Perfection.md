@@ -1,21 +1,27 @@
 ---
-title: Perfecting the Art of Perfection
-date: "2016-09-01T23:46:37.121Z"
+title: 스크립트 언어
+date: "2020-08-06T09:46:37.121Z"
 template: "post"
 draft: false
-slug: "perfecting-the-art-of-perfection"
-category: "Design Inspiration"
+slug: "slug?"
+category: "IT 토막상식"
 tags:
-  - "Handwriting"
-  - "Learning to write"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+  - "Script"
+description: "서버측 스크립트 언어와 클라이언트측 스크립트 언어"
 socialImage: "/media/image-2.jpg"
 ---
 
-Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
+스크립트 언어는 크게 Client Side와 Server Side로 나눌 수 있다.
+### 클라이언트 측 스크립트 언어
+- 대표적으로 자바스크립트
+- 방문자의 컴퓨터에서 프로그래밍이 수행
+- 사이트에서 동적인것을 개발할때 주로 사용
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
+### 서버 측 스크립트 언어
+- 대표적으로 PHP, ASP, JSP
+- 서버에서 프로그래밍이 수행
+- DB에서 데이터를 불러오거나 DB에 데이터를 전달해야하는 경우 주로 사용
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. 
+‘‘‘ 로그인 페이지의 경우 아이디, 비밀번호 형식 체크는 클라이언트 측 언어로, 로그인 처리는 서버측 언어로 진행 ‘‘‘
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+
