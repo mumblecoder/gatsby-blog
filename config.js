@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Blog by Mumblecoder',
-  subtitle: "mumblecoder's code diary",
+  subtitle: 'mumblecoder\'s code diary',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
