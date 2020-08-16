@@ -3,7 +3,7 @@ title: 스크립트 언어
 date: "2020-08-06T09:46:37.121Z"
 template: "post"
 draft: false
-slug: "slug?"
+slug: "script-language"
 category: "IT 토막상식"
 tags:
   - "Script"
