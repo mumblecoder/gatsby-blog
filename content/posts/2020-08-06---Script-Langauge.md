@@ -1,5 +1,5 @@
 ---
-title: 스크립트 언어
+title: 20.08.06 - 스크립트 언어
 date: "2020-08-06T09:46:37.121Z"
 template: "post"
 draft: false
