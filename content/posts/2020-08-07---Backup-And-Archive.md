@@ -8,7 +8,6 @@ category: "IT 토막상식"
 tags:
   - "Etc"
 description: "백업과 아카이브의 차이"
-socialImage: "/media/image-2.jpg"
 ---
 
 백업과 아카이브는 제대로 알지 못하면 같은 기능을 말하는건가 착각할 수 있지만, 두 기능은 엄연히 다른 기능이다.

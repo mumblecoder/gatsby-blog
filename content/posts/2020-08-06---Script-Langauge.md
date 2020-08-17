@@ -8,7 +8,6 @@ category: "IT 토막상식"
 tags:
   - "Script"
 description: "서버측 스크립트 언어와 클라이언트측 스크립트 언어"
-socialImage: "/media/image-2.jpg"
 ---
 
 스크립트 언어는 크게 Client Side와 Server Side로 나눌 수 있다.

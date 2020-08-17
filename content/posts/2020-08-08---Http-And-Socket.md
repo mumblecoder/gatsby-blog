@@ -8,7 +8,6 @@ category: "IT 토막상식"
 tags:
   - "Etc"
 description: "네트워크를 통해 서버로부터 데이터를 가져오기 위한 통신방식은 크게 Http와 Socket이 있다. 두 방식의 차이에 대해 알아보자."
-socialImage: "/media/image-2.jpg"
 ---
 
 ### 1. Http 통신
