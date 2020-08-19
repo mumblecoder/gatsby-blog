@@ -1,6 +1,6 @@
 ---
-title: 20.08.09 - HashMap, TreeMap, LinkedHashMap
-date: "2020-08-09T11:15:12.394Z"
+title: 20.08.18 - HashMap, TreeMap, LinkedHashMap
+date: "2020-08-18T11:15:12.394Z"
 template: "post"
 draft: true
 slug: "java-maps"
