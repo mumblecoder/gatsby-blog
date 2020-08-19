@@ -30,4 +30,4 @@ description: "Cookie, Session, Cache를 어떤 경우에 활용해야 하는지 
 - DB의 데이터나 파일이 바뀌었음에도 이전 데이터나 파일을 가져오는 경우가 있는데 캐싱한 데이터나 파일을 가져오기 때문에 발생한다.
 - 캐싱을 해두면 DB 접근 횟수도 줄고 빠른 응답이 가능하다. 
 
-` Reference - [Cookie / Session / Cache](https://asfirstalways.tistory.com/m/68?category=656859)`
+Reference - [Cookie / Session / Cache](https://asfirstalways.tistory.com/m/68?category=656859)
