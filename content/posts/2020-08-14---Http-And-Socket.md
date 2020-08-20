@@ -1,6 +1,6 @@
 ---
-title: 20.08.08 - Http통신과 Socket통신의 차이
-date: "2020-08-08T12:25:17.844Z"
+title: 20.08.14 - Http통신과 Socket통신의 차이
+date: "2020-08-14T12:25:17.844Z"
 template: "post"
 draft: false
 slug: "http-and-socket"

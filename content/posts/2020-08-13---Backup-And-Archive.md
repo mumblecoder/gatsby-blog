@@ -1,6 +1,6 @@
 ---
-title: 20.08.07 - 백업과 아카이브에 대해서
-date: "2020-08-07T10:15:37.121Z"
+title: 20.08.13 - 백업과 아카이브에 대해서
+date: "2020-08-13T10:15:37.121Z"
 template: "post"
 draft: false
 slug: "bacup-and-archive"
