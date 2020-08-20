@@ -1,25 +1,22 @@
 ---
-title: 20.08.18 - HashMap, TreeMap, LinkedHashMap
+title: 20.08.18 - 하드코딩은 피해라
 date: "2020-08-18T11:15:12.394Z"
 template: "post"
 draft: true
-slug: "java-maps"
+slug: "hard-coding"
 category: "IT 토막상식"
 tags:
-  - "Java"
-description: "자바에는 여러가지 Map이 존재한다. 특성을 파악하여 적절한 상황에 적절한 Map을 써보도록 하자."
+  - "Etc"
+description: "하드 코딩은 하는 순간은 편할 수 있으나 나중을 생각하면 해선 안되는 방법이다."
 ---
 
-### 1. HashMap
-- 내부적으로 Entry의 array로 되어 있다.
-- Hash값을 이용해 저장하기 때문에 순서를 보장하지 않는다.
+### 하드코딩이란
+- 프로그램의 소스 코드에 데이터를 직접 입력해서 저장하는 것.
+- 주로 파일 경로, URL 또는 IP 주소 등을 코드에 문자열로 적어둔다.
 
-### 2. TreeMap
-- 내부적으로 키와 값을 한 쌍으로 하는 데이터를 이진 검색 트리(binary search tree)의 형태로 저장한다. 이진 검색 트리는 데이터를 추가하거나 제거하는 등의 기본 동작 시간이 매우 빠르다.
-- 키값에 대한 Comparator구현으로 정렬 순서를 바꿀수 있다.
+### 하드코딩의 문제점
+##### 1. 코드 작성자가 아니면 의미 파악 하기가 어렵다.
 
-### 3. LinkedHashMap
-- LinkedList로 저장됨.
-- 키값은 입력 순서대로 저장된다.
+##### 2. 유지 보수 하기가 어렵다.
 
 > 

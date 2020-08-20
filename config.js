@@ -30,7 +30,7 @@ module.exports = {
   ],
   author: {
     name: 'Mumblecoder',
-    photo: '/logo.png',
+    photo: '/logo.jpg',
     bio: '쓸모있는 개발자가 되기 위한 고군분투기',
     contacts: {
       email: '',
