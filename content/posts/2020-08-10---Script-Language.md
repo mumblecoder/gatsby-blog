@@ -4,7 +4,7 @@ date: "2020-08-10T09:46:37.121Z"
 template: "post"
 draft: false
 slug: "script-language"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Script"
 description: "서버측 스크립트 언어와 클라이언트측 스크립트 언어"

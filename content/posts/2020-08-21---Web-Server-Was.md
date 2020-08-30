@@ -4,7 +4,7 @@ date: "2020-08-21T10:13:55.781Z"
 template: "post"
 draft: false
 slug: "web-server-was"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Server"
 description: "Web 서버와 WAS에 대해 알아보자 "

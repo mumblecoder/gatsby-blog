@@ -4,7 +4,7 @@ date: "2020-08-25T12:32:52.482Z"
 template: "post"
 draft: false
 slug: "java-issue"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Java"
 description: "Java의 기본적인 이슈 6가지에 대해서 알아보자"

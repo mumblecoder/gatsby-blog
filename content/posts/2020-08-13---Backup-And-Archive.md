@@ -4,7 +4,7 @@ date: "2020-08-13T10:15:37.121Z"
 template: "post"
 draft: false
 slug: "backup-and-archive"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Etc"
 description: "백업과 아카이브의 차이"

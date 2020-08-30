@@ -20,12 +20,12 @@ module.exports = {
       path: '/categories'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'Tags',
+      path: '/tags'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'About me',
+      path: '/pages/about'
     }
   ],
   author: {

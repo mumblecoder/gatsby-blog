@@ -4,7 +4,7 @@ date: "2020-08-18T11:15:12.394Z"
 template: "post"
 draft: false
 slug: "hard-coding"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Etc"
 description: "하드 코딩은 하는 순간은 편할 수 있으나 나중을 생각하면 해선 안되는 방법이다."

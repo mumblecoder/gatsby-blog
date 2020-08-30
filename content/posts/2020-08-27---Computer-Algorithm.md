@@ -4,7 +4,7 @@ date: "2020-08-27T13:25:14.362Z"
 template: "post"
 draft: true
 slug: "computer-algorithm"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Algorithm"
 description: "컴퓨터 알고리즘에 대해 알아보자."

@@ -4,7 +4,7 @@ date: "2020-08-24T11:44:23.284Z"
 template: "post"
 draft: false
 slug: "graphql-intro"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "GraphQL"
 description: "GraphQL은 페이스북에서 만든 쿼리로 최근 인기가 오르고 있다고 한다."

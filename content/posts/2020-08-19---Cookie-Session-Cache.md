@@ -4,7 +4,7 @@ date: "2020-08-19T11:28:12.394Z"
 template: "post"
 draft: false
 slug: "cookie-session-cache"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Web"
 description: "Cookie, Session, Cache를 어떤 경우에 활용해야 하는지 알아보자"

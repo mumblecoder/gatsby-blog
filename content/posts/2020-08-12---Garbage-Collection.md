@@ -4,7 +4,7 @@ date: "2020-08-12T09:43:13.115Z"
 template: "post"
 draft: false
 slug: "garbage-collection"
-category: "IT 토막상식"
+category: "Daily"
 tags:
   - "Etc"
 description: "Garbage Collection. GC(가비지컬렉션)에 대해서 알아보자"
