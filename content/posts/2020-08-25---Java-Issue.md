@@ -1,5 +1,5 @@
 ---
-title: 20.08.25 - Java Issue
+title: Java Issue
 date: "2020-08-25T12:32:52.482Z"
 template: "post"
 draft: false

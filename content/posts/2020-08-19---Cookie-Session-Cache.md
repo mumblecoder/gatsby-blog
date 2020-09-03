@@ -1,5 +1,5 @@
 ---
-title: 20.08.19 - Cookie And Session And Cache
+title: Cookie And Session And Cache
 date: "2020-08-19T11:28:12.394Z"
 template: "post"
 draft: false

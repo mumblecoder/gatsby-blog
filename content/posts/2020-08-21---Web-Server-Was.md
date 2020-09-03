@@ -1,5 +1,5 @@
 ---
-title: 20.08.21 - Web Server & WAS
+title: Web Server & WAS
 date: "2020-08-21T10:13:55.781Z"
 template: "post"
 draft: false

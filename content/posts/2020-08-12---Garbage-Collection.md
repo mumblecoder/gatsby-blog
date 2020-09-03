@@ -1,5 +1,5 @@
 ---
-title: 20.08.12 - Garbage Collection
+title: Garbage Collection
 date: "2020-08-12T09:43:13.115Z"
 template: "post"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: 20.08.24 - GraphQL
+title: GraphQL
 date: "2020-08-24T11:44:23.284Z"
 template: "post"
 draft: false

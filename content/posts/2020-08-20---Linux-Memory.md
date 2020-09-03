@@ -1,5 +1,5 @@
 ---
-title: 20.08.20 - 리눅스 메모리 관리
+title: 리눅스 메모리 관리
 date: "2020-08-20T12:28:42.112Z"
 template: "post"
 draft: false

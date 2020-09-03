@@ -1,5 +1,5 @@
 ---
-title: 20.08.18 - 하드코딩은 피해라
+title: 하드코딩은 피해라
 date: "2020-08-18T11:15:12.394Z"
 template: "post"
 draft: false

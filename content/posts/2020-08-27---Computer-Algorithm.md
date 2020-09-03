@@ -1,5 +1,5 @@
 ---
-title: 20.08.27 - Computer Algorithm
+title: Computer Algorithm
 date: "2020-08-27T13:25:14.362Z"
 template: "post"
 draft: true
