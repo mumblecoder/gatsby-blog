@@ -22,10 +22,6 @@ module.exports = {
     {
       label: 'Tags',
       path: '/tags'
-    },
-    {
-      label: 'About me',
-      path: '/pages/about'
     }
   ],
   author: {
@@ -34,7 +30,7 @@ module.exports = {
     bio: '쓸모있는 개발자가 되기 위한 고군분투기',
     contacts: {
       email: '',
-      github: '#',
+      github: 'mumblecoder',
       rss: '',
       vkontakte: '',
       linkedin: '#',
