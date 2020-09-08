@@ -2,7 +2,7 @@
 title: Computer Algorithm
 date: "2020-08-27T13:25:14.362Z"
 template: "post"
-draft: true
+draft: false
 slug: "computer-algorithm"
 category: "Daily"
 tags:
@@ -10,17 +10,17 @@ tags:
 description: "컴퓨터 알고리즘에 대해 알아보자."
 ---
 
-### 컴퓨터 알고리즘 
+### 컴퓨터 알고리즘
  - 문제를 해결하는 방법
- - 컴퓨터를 이용하여 주어진 문제를 풀기 위한 방법이나 절차 
+ - 컴퓨터를 이용하여 주어진 문제를 풀기 위한 방법이나 절차
  - 주어진 문세를 효율적으로 풀기 위한 방법을 단계별로 기술해 놓은 것이다.
   - 기본적인 연산능력만 가지고 있다면 누구나 문제를 해결할 수 있도록 명확하게 기술되어야 한다.
 
-### 컴퓨터 언어 
+### 컴퓨터 언어
  - 컴퓨터와 대화하기 위해서 사용하는 언어
  - java, python, C, C++, C#
 
-### 컴퓨터 프로그램 
+### 컴퓨터 프로그램
  - 컴퓨터가 특정 작업을 수행하기 위해 짜여진 명령의 순서
 
 ### 컴퓨터 알고리즘을 설명하기 위한 4단계
@@ -72,4 +72,4 @@ description: "컴퓨터 알고리즘에 대해 알아보자."
 <hr>
 
 > Reference
-- []()
+- [컴퓨터 알고리즘 초급 강의](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=83)
