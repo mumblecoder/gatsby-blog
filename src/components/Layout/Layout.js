@@ -35,6 +35,7 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <meta name="google-site-verification" content="GF1jDwobfte_VSEQ9MOpnwHgoirB0n3gzV5X1fUfkzk" />
       </Helmet>
       {children}
     </div>
