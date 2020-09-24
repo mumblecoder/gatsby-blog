@@ -2,7 +2,7 @@
 title: Spring Transaction 전파
 date: "2020-09-23T20:45:32.842Z"
 template: "post"
-draft: true
+draft: false
 slug: "spring-transaction"
 category: "Daily"
 tags:
@@ -42,8 +42,25 @@ public void transactionService(){
 
 1. @Transactional(propagation = Propagation.REQUIRED)
 	- propagation의 defalut value는 Propagation.REQUIRED이다.
+	- 이 경우엔 동일한 트랜잭션 이름이 로그로 기록된다.
 
+2. @Transactional(propagation = Propagation.REQUIRED_NEW)
+	- 이 경우엔 트랜잭션명이 다르게 기록된다.
+	- 기존에 트랜잭션이 있더라도 현재 트랜잭션을 새로 만드는 속성이다.
+	- 하지만 부모 트랜잭션에서 에러가 발생하면 새로 만든 트랜잭션도 같이 롤백된다.
+	
+3. @Transactional(propagation = Propagation.NEVER)
+	- 이 경우엔 에러가 발생한다.
+	- 트랜잭션이 이미 있으면 에러를 발생하는 속성이다.
+	
+4. @Transactional(propagation = Propagation.MANDATORY)
+	- 이 경우엔 동일한 트랜잭션명이 기록된다.
+	- 만약 UserService에 트랜잭션을 걸지 않았다면 에러가 발생한다.
+	- 트랜잭션이 없는 곳에서 호출되면 에러를 발생하는 속성이다.
 
+5. @Transactional(propagation = Propagation.NOT_SUPPORTED)
+	- Propagation.REQUIRES_NEW 속성처럼 트랜잭션명이 다르게 기록된다.
+	- 부모 트랜잭션에서 오류가 발생하여도 새로 만든 트랜잭션은 영향을 받지 않는다. (롤백되지 않는다.)
 
 
 <hr>
