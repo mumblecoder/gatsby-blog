@@ -10,6 +10,9 @@ tags:
 description: "Arraylist와 Linkedlist의 차이점에 대해 알아보자."
 ---
 
+#### LinkedList는 List 구현 클래스이므로 ArrayList와 사용 방법은 똑같지만 내부 구조는 완전 다르다. <br> ArrayList는 내부 배열에 객체를 저장해서 인덱스로 관리하지만, LinkedList는 인접 참조를 링크해서 체인처럼 관리한다.
+
+
 ### ArrayList
 - ArrayList는 내부적으로 데이터를 배열에서 관리하며 데이터의 추가, 삭제를 위해 아래와 같이 임시 배열을 생성해 데이터를 복사 하는 방법을 사용 하고 있다.
 ![arraylist](/img/arraylist.png)
