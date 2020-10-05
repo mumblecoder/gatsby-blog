@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://mumblecoder.tk',
+  url: 'https://www.mumblecoder.tk',
   pathPrefix: '/',
   title: 'Blog by Mumblecoder',
   subtitle: 'gatsby blog',
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Mumblecoder',
     photo: '/logo.png',
-    bio: '쓸모있는 개발자가 되기 위한 고군분투기',
+    bio: 'Study Log',
     contacts: {
       email: '',
       github: 'mumblecoder',
