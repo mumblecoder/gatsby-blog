@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://mumblecoder.tk',
   pathPrefix: '/',
   title: 'Blog by Mumblecoder',
   subtitle: 'gatsby blog',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 5,
+  postsPerPage: 7,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
