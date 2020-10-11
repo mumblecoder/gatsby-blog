@@ -2,7 +2,7 @@
 title: Database를 사용하는 이유
 date: "2020-10-08T23:11:43.283Z"
 template: "post"
-draft: true
+draft: false
 slug: "why-database"
 category: "Daily"
 tags:
