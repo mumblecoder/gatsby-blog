@@ -14,8 +14,8 @@ module.exports = {
     menu: siteConfig.menu,
     author: siteConfig.author,
     adsense: {
-      adClient: "ca-pub-3339269060537853",
-      adSlot: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      adClient: 'ca-pub-3339269060537853',
+      adSlot: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
     }
   },
   plugins: [
