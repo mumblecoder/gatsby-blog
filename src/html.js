@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function HTML(props) {
   return (
@@ -13,19 +13,19 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
+      <body { ...props.bodyAttributes }>
+        { props.preBodyComponents }
         <div
-          key={`body`}
+          key={ 'body' }
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
-        {props.postBodyComponents}
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        { props.postBodyComponents }
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </body>
     </html>
-  )
-}
+  );
+};
 
 HTML.propTypes = {
   htmlAttributes: PropTypes.object,
@@ -34,4 +34,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-}
+};
