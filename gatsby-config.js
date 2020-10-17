@@ -12,7 +12,11 @@ module.exports = {
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
-    author: siteConfig.author
+    author: siteConfig.author,
+    adsense: {
+      adClient: "ca-pub-3339269060537853",
+      adSlot: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    }
   },
   plugins: [
     {
