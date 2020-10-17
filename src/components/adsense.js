@@ -21,12 +21,12 @@ function Adsense() {
       })
         return(
             <div style={{padding: 8}}>
-                <ins class="adsbygoogle"
-                    style={{display: "block"}}
+                <ins class='adsbygoogle'
+                    style={{display: 'block'}}
                     data-ad-client={site.siteMetadata.adsense.adClient}
                     data-ad-slot={site.siteMetadata.adsense.adSlot}
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
+                    data-ad-format='auto'
+                    data-full-width-responsive='true'></ins>
             </div>
         )
     }
