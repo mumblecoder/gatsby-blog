@@ -18,7 +18,7 @@ function Adsense() {
   );
 
   useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});   
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
   });
   return (
       <div style={{ padding: 8 }}>

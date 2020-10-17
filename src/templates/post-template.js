@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
-import Adsense from "../components/adsense"
+import Adsense from '../components/adsense';
 
 type Props = {
   data: {

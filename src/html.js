@@ -25,7 +25,7 @@ export default function HTML(props) {
       </body>
     </html>
   );
-};
+}
 
 HTML.propTypes = {
   htmlAttributes: PropTypes.object,
