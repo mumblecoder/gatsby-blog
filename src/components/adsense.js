@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 
 function Adsense() {
   useEffect(() => {
