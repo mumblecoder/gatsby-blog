@@ -27,4 +27,4 @@ describe('PostTemplate', () => {
     // const tree = renderer.create(<PostTemplate {...props} />).toJSON();
     // expect(tree).toMatchSnapshot();
   }),
-});
+);
