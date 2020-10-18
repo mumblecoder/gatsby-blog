@@ -21,7 +21,7 @@ describe('PostTemplate', () => {
       ),
       useStaticQuery.mockReturnValue(siteMetadata)
     );
-  });
+  }),
 
   it('renders correctly', () => {
     // const tree = renderer.create(<PostTemplate {...props} />).toJSON();
