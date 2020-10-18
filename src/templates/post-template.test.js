@@ -26,5 +26,5 @@ describe('PostTemplate', () => {
   it('renders correctly', () => {
     // const tree = renderer.create(<PostTemplate {...props} />).toJSON();
     // expect(tree).toMatchSnapshot();
-  });
+  }),
 });
