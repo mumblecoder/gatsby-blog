@@ -2,21 +2,6 @@ import React, { useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 function Adsense() {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            adsense {
-              adClient
-              adSlot
-            }
-          }
-        }
-      }
-    `
-  );
-
   useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   });
