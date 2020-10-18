@@ -40,9 +40,5 @@ module.exports = {
       youtube: '',
       soundcloud: '',
     }
-  },
-  adsense: {
-    adClient: 'ca-pub-3339269060537853',
-    adSlot: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
   }
 };
