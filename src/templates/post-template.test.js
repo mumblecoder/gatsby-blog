@@ -12,7 +12,7 @@ describe('PostTemplate', () => {
   //   data: {
   //     ...markdownRemark
   //   }
-  };
+  },
 
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
