@@ -8,7 +8,7 @@ import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
-import Adsense from '../components/adsense';
+import Adsense from '../adsense';
 
 type Props = {
   post: Node
