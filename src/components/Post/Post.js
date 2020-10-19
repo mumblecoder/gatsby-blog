@@ -8,6 +8,7 @@ import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
+import Adsense from '../components/adsense';
 
 type Props = {
   post: Node
@@ -24,6 +25,7 @@ const Post = ({ post }: Props) => {
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
+        <Adsense />
       </div>
 
       <div className={styles['post__footer']}>
