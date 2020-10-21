@@ -3,7 +3,7 @@ title: Java - 동기화 처리
 date: "2020-10-12T22:09:52.235Z"
 template: "post"
 draft: true
-slug: "math-class"
+slug: "synchronize"
 category: "Daily"
 tags:
   - "Java"
