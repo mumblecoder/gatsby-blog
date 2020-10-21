@@ -1,12 +1,12 @@
 ---
 title: Sequence 사용 이유
-date: "2020-10-12T22:09:52.235Z"
+date: "2020-10-21T20:15:23.482Z"
 template: "post"
-draft: true
-slug: "math-class"
+draft: false
+slug: "why-use-sequence"
 category: "Daily"
 tags:
-  - "Java"
+  - "Database"
 description: "PK로 자주 사용하는 시퀀스. 왜 사용하는지 알아보자"
 ---
 
