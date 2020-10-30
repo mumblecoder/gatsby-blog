@@ -2,7 +2,7 @@
 title: Spring AOP (Aspect Oriented Programming)
 date: "2020-10-29T17:57:11.492Z"
 template: "post"
-draft: true
+draft: false
 slug: "spring-aop"
 category: "Daily"
 tags:
@@ -35,9 +35,38 @@ description: "Spring AOP의 개념과 특징에 대해서 알아보자"
 - 스프링 빈에만 AOP를 적용 가능
 - 모든 AOP 기능을 제공하는 것이 아닌 스프링 IoC와 연동하여 엔터프라이즈 애플리케이션에서 가장 흔한 문제(중복코드, 프록시 클래스 작성의 번거로움, 객체들 간 관계 복잡도 증가 ...)에 대한 해결책을 지원하는 것이 목적
 
+### Spring AOP의 구현 방식
+1. XML 기반의 POJO 클래스를 이용한 AOP 구현
+    - 부가기능을 제공하는 Advice 클래스를 작성한다.
+    - XML 설정 파일에 <aop:config>를 이용해서 애스펙트를 설정한다. (즉, 어드바이스와 포인트컷을 설정함)
+
+2. @Aspect 어노테이션을 이용한 AOP 구현
+    - @Aspect 어노테이션을 이용해서 부가기능을 제공하는 Aspect 클래스를 작성한다.
+    - 이 때 Aspect 클래스는 어드바이스를 구현하는 메서드와 포인트컷을 포함한다.
+    - XML 설정 파일에 <aop:aspectj-autoproxy />를 설정한다.
+
+
+### Advice의 종류
+1. Around 어드바이스
+    - 타겟의 메서드가 호출되기 이전(before) 시점과 이후 (after) 시점에 모두 처리해야 할 필요가 있는 부가기능을 정의한다.
+    - Joinpoint 앞과 뒤에서 실행되는 Advice
+
+2. Before 어드바이스
+    - 타겟의 메서드가 실행되기 이전(before) 시점에 처리해야 할 필요가 있는 부가기능을 정의한다.
+    - Jointpoint 앞에서 실행되는 Advice
+
+3. After Returning 어드바이스
+    - 타겟의 메서드가 정상적으로 실행된 이후(after) 시점에 처리해야 할 필요가 있는 부가기능을 정의한다.
+    - Jointpoint 메서드 호출이 정상적으로 종료된 뒤에 실행되는 Advice
+
+4. After Throwing 어드바이스
+    - 타겟의 메서드가 예외를 발생된 이후(after) 시점에 처리해야 할 필요가 있는 부가기능을 정의한다.
+    - 예외가 던져 질때 실행되는 Advice
+
 
 <hr>
 
 > Reference
 - [Spring 스프링 AOP (Spring AOP) 총정리](https://engkimbs.tistory.com/746)
 - [AOP 정리](https://jojoldu.tistory.com/71)
+- [Spring AOP, Aspect 개념 특징, AOP 용어 정리](https://shlee0882.tistory.com/206)
