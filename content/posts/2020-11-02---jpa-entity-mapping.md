@@ -42,3 +42,4 @@ private RoleType roleType;
 
 > Reference
 - 자바 ORM 표준 JPA 프로그래밍
+- [JPA 엔티티 매핑 방법 (Entity Mapping)](https://gmlwjd9405.github.io/2019/08/11/entity-mapping.html)
