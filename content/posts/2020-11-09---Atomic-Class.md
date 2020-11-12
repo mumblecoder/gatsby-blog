@@ -41,7 +41,6 @@ description: "동시성을 보장해주는 Atomic 클래스에 대해 알아보�
 - weakCompareAndSet()의 메모리 효과는 단순했지만 그 이름은 휘발성 메모리 효과를 암시합니다. 
 - 이러한 혼동을 피하기 위해 그들은 이 메서드를 폐기하고 weakCompareAndSetPlain() 또는 weakCompareAndSetVolatile()과 같은 다른 메모리 효과를 가진 네 가지 메서드를 추가했습니다.
 
-> [An Introduction to Atomic Variables in Java](https://www.baeldung.com/java-atomic-variables) 번역문 참조
 
 <hr>
 
