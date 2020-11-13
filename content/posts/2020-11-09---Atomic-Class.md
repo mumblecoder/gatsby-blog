@@ -36,10 +36,10 @@ description: "동시성을 보장해주는 Atomic 클래스에 대해 알아보�
 #### compareAndSet () 
 – 섹션 3에서 설명한 것과 동일하며 성공하면 true를 반환하고 그렇지 않으면 false를 반환한다.
 #### weakCompareAndSet () 
-– 섹션 3에서 설명한 것과 동일하지만 순서가 발생하기 전에 발생하지 않는다는 점에서 약합니다. 즉, 다른 변수에 대한 업데이트가 반드시 표시되는 것은 아닙니다. 
-- Java9에서 이 메소드는 weakCompareAndSetPlain()을 위해 모든 원자 구현에서 사용되지 않습니다.
-- weakCompareAndSet()의 메모리 효과는 단순했지만 그 이름은 휘발성 메모리 효과를 암시합니다. 
-- 이러한 혼동을 피하기 위해 그들은 이 메서드를 폐기하고 weakCompareAndSetPlain() 또는 weakCompareAndSetVolatile()과 같은 다른 메모리 효과를 가진 네 가지 메서드를 추가했습니다.
+– 섹션 3에서 설명한 것과 동일하지만 순서가 발생하기 전에 발생하지 않는다는 점에서 약합니다. 즉, 다른 변수에 대한 업데이트가 반드시 표시되는 것은 아니다. 
+- Java9에서 이 메소드는 weakCompareAndSetPlain()을 위해 모든 원자 구현에서 사용되지 않는다.
+- weakCompareAndSet()의 메모리 효과는 단순했지만 그 이름은 휘발성 메모리 효과를 암시한다. 
+- 이러한 혼동을 피하기 위해 그들은 이 메서드를 폐기하고 weakCompareAndSetPlain() 또는 weakCompareAndSetVolatile()과 같은 다른 메모리 효과를 가진 네 가지 메서드를 추가했다.
 
 
 <hr>
