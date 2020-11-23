@@ -15,6 +15,7 @@ description: "메세징 시스템 Apache Kafka에 대해 알아보자"
 - 메세징 큐의 일종
 - 대용량의 실시간 로그 처리에 특화되어 설계된 메시징 시스템, 기존 범용 메시징 시스템대비 TPS가 매우 우수
 - 기존의 메시징 시스템에서는 broker가 consumer에게 메시지를 push해 주는 방식인데 반해, Kafka는 consumer가 broker로부터 직접 메시지를 가지고 가는 pull 방식으로 동작하기 때문에 consumer는 자신의 처리능력만큼의 메시지만 broker로부터 가져오기 때문에 최적의 성능을 낼 수 있다.
+![Kafka Architecture](/img/kafka-architecture.png)
 
 ### 카프카 주요 개념
 - producer : 메세지 생산(발행)자.
@@ -49,3 +50,4 @@ description: "메세징 시스템 Apache Kafka에 대해 알아보자"
 
 > Reference
 - [아파치 카프카(Apache Kafka) 아키텍처 및 동작방식, 파티션 읽기 쓰기(Partition Read and Write)](https://engkimbs.tistory.com/691)
+- [아파치 카프카 알아보기](https://12bme.tistory.com/531)
