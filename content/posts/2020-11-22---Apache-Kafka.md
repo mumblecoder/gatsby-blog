@@ -2,7 +2,7 @@
 title: Apache Kafka
 date: "2020-11-22T23:23:15.921Z"
 template: "post"
-draft: true
+draft: false
 slug: "apache-kafka"
 category: "Daily"
 tags:
@@ -31,7 +31,9 @@ description: "메세징 시스템 Apache Kafka에 대해 알아보자"
 
 ### 카프카의 특징(Kafka Features)
 1. Publisher Subscriber 모델
-    - Publisher Subscriber 모델은 데이터 큐를 중간에 두고 서로 간 독립적으로 데이터를 생산하고 소비합니다. 이런 느슨한 결합을 통해 Publisher나 Subscriber가 죽을 시, 서로 간에 의존성이 없으므로 안정적으로 데이터를 처리할 수 있습니다. 또한 설정 역시 간단하게 할 수 있다는 장점이 있습니다.
+    - Publisher Subscriber 모델은 데이터 큐를 중간에 두고 서로 간 독립적으로 데이터를 생산하고 소비한다. 
+    - 이런 느슨한 결합을 통해 Publisher나 Subscriber가 죽을 시, 서로 간에 의존성이 없으므로 안정적으로 데이터를 처리할 수 있다. 
+    - 설정을 간단하게 할 수 있다는 장점이 있다.
 2. 고가용성(High availability) 및 확장성(Scalability)
     - 카프카는 클러스터로서 작동한다. 
     - 클러스터로서 작동하므로 Fault-tolerant한 고가용성 서비스를 제공할 수 있고 분산 처리를 통해 빠른 데이터 처리를 가능하게 한다.
