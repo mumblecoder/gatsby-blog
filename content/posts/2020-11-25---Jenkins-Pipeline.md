@@ -36,3 +36,5 @@ description: "젠킨스 파이프라인 플러그인에 대해 알아보자."
 
 > Reference
 - [젠킨스 파이프라인](https://bob-full.tistory.com/10)
+- [젠킨스 파이프라인 작성방법(기초)](https://parkhyeokjin.github.io/devops/2019/10/14/JekinsWritePipeline.html)
+- [Jenkins Pipeline 구성](https://medium.com/@jyson88/jenkins-pipeline-%EA%B5%AC%EC%84%B1-d4d0a4c074c5)
