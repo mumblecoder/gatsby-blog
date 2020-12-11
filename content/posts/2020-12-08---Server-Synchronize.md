@@ -20,6 +20,7 @@ description: "다중 서버일경우 동기화 처리에 대한 방법"
 
 ### Redis 트랜잭션
 - [Redis 트랜잭션, Spring Data Redis](https://ka0oll.tistory.com/25)
+- [Redis의 동시성(Concurrency)개념과 고립성(Isolation)을 위한 Transaction 처리](https://jjeda.tistory.com/13)
 
 > Reference
 - [NTP란](https://mindnet.tistory.com/entry/NTP)
