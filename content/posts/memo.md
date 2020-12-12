@@ -63,3 +63,4 @@ setFetchSize() 메서드를 사용하여 데이터를 더 빠르게 가져오자
 <br><br><br>
 
 XML, Json
+Server Setting, WAS, DB Connection Pool
