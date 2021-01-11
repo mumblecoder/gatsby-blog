@@ -19,6 +19,9 @@ description: "인프런에서 김영한님의 스프링입문 무료강의를 �
 4. Junit은 오랫동안 4버전을 사용하다 최근들어서는 5버전으로 갈아타는 추세다.
 
 
+5. Test code 작성 패턴 - Given-When-Then [Given-When-Then Pattern](https://brunch.co.kr/@springboot/292)
+
+6. Junit5 사용법 [[JUnit] JUnit5 사용법 - 기본](https://gmlwjd9405.github.io/2019/11/26/junit5-guide-basic.html)
 
 
 > Reference
