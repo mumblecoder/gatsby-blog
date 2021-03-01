@@ -1,5 +1,5 @@
 ---
-title: 
+title: 자바 서버 개발자로 기술 면접에 대한 준비
 date: "2021-02-28T23:11:32.923Z"
 template: "post"
 draft: true
@@ -22,7 +22,7 @@ description: "기술면접에 나온 질문들 정리"
     1. 쿼리 앞에 EXPLAIN 키워드를 추가한다
 
 - 인터셉터, 필터에 대해서 설명
-    
+    - [[Spring] Filter, Interceptor, AOP 차이 및 정리](https://goddaehee.tistory.com/154)
 
 - msa, monolithic 장단점
     Monolithic 아키텍처는 전체 어플리케이션을 하나의 통합된 패키지로 개발/배포 하는 방식이다. 웹 개발을 예로들면, 웹 프로그램을 개발하기 위해서 모듈별로 개발을 하고, 개발이 완료된 웹 어플리케이션을 하나의 결과물로 패키징 하여 배포되는 형태를 말한다. 웹의 경우 WAR 파일로 빌드되어, WAS에 배포하는 형태이다.
