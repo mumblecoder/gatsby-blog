@@ -39,3 +39,4 @@ description: "참조타입과 기본타입, mutalble과 immutable의 차이를 �
 
 > 출처
 - [[객체지향]mutable, immutable 객체란?](https://m.blog.naver.com/PostView.nhn?blogId=k220j&logNo=220869725179&proxyReferer=https:%2F%2Fwww.google.com%2F)
+- [mutable, immutable](https://cdy0510.github.io/2018/05/10/mutable-immutable/)
