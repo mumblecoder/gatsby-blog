@@ -1,12 +1,12 @@
 ---
 title: ORM에 대해서
-date: "2021-03-07T13:23:53.126Z"
+date: "2021-03-08T22:44:13.826Z"
 template: "post"
 draft: true
-slug: "filter-interceptor"
+slug: "object-relational-mapping"
 category: "Daily"
 tags:
-  - "Spring"
+  - "ORM"
 description: "ORM(Object Relational Mapping)에 대해 알아보자."
 ---
 
