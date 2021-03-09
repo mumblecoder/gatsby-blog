@@ -11,7 +11,7 @@ description: "Filter와 Interceptor에 대해 알아보자."
 ---
 
 ## Filter & Interceptor
-![흐름도](img/filter-interceptor-aop.png)
+![흐름도](/img/filter-interceptor-aop.png)
   - Interceptor와 Filter는 Servlet 단위에서 실행된다. 반면 AOP는 메소드 앞에 Proxy패턴의 형태로 실행된다.
   - Filter와 Interceptor는 실행되는 시점이 다르다. 실행순서를 보면 Filter가 가장 밖에 있고 그 안에 Interceptor, 그 안에 AOP가 있는 형태이다.
   - Filter는 Web Application에 등록을 하고, Interceptor는 Spring의 Context에 등록을 한다.
