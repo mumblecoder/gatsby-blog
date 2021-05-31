@@ -53,10 +53,10 @@ description: "Mac과 brew를 사용하여 mongoDB를 설치해보자"
    - .zshrc의 변경된 사항을 적용 하려면 위 명령어를 수행해야한다. 그 전까지는 변경사항이 적용되지 않는다.
    
 ## 5. mongoDB 실행
-    ```
+   ```
     brew services start mongodb/brew/mongodb-community@4.4 (서비스를 백그라운드로 실행하고싶은 경우)
     mongod --config /usr/local/etc/mongod.conf (아닌 경우)
-    ```
+   ```
 
 ## 6. mongoDB 접속
  ```
