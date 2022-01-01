@@ -4,7 +4,7 @@ date: "2021-12-30T17:50:00.000Z"
 template: "post"
 draft: false
 slug: "2021-review"
-category: "review"
+category: "Review"
 tags:
   - "Etc"
 description: "기록하고 기억하자"
