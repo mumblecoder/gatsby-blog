@@ -3,7 +3,7 @@ title: Using ObjectMapper Without Default Construct (ParameterNamesModule)
 date: "2022-01-03T23:55:00.000Z"
 template: "post"
 draft: false
-slug: "objectmapper-without-default-construct"
+slug: "objectmapper-without-default-constructor"
 category: "Daily"
 tags:
   - "Java"
@@ -42,9 +42,9 @@ public class Student {
 }
 ```
 
-- 기본 생성자를 생성하려면 필드에 붙은 final을 제거해줘야한다.
-- Setter를 안 만들거니 final 없어도 되지 않나? 라고 생각할 수 있지만 나만 건드는 코드가 아니기에 Setter가 생기지 않을거라고 장담할 수 없다.
-- 그래서 다른 방법을 찾아보게되었다.
+- 기본 생성자를 생성하려면 필드에 붙은 final을 제거해줘야 한다.
+- Setter를 안 만들 거니 final 없어도 되지 않나? 라고 생각할 수 있지만 나만 건드는 코드가 아니기에 Setter가 생기지 않을 거라고 장담할 수 없다.
+- 그래서 다른 방법을 찾아보았다.
 
 ## 해결(SpringBoot(2.3.3), Jackson(2.11.2) 기준)
 
@@ -59,12 +59,14 @@ ObjectMapper mapper = new ObjectMapper().registerModule(new ParameterNamesModule
 @Getter
 @ToString
 public class Student {
-
     private String name;
-
 }
 ```
 
 ## 주의점
 - 위 에러의 경우 받은 데이터를 deserialize 할 때 발생한다.
-- 즉, Runtime에 발생하는 에러여서 convert 되는 모든 경우를 확인해보아야한다.
+- 즉, Runtime에 발생하므로 메세지가 변환되는 모든 경우를 확인해야 한다.
+
+## 참고글
+- [RabbitMQ Jackson2JsonMessageConvertor](https://minholee93.tistory.com/entry/RabbitMQ-Jackson2JsonMessageConvertor)
+- [Jackson으로 파싱한 JSON 속성값을 생성자로 전달하기](https://blog.benelog.net/jackson-with-constructor.html)
