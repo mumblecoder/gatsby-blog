@@ -1,5 +1,5 @@
 ---
-title: Using ObjectMapper Without Default Construct (ParameterNamesModule)
+title: Using ObjectMapper Without Default Constructor (ParameterNamesModule)
 date: "2022-01-03T23:55:00.000Z"
 template: "post"
 draft: false
