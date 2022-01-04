@@ -59,7 +59,7 @@ ObjectMapper mapper = new ObjectMapper().registerModule(new ParameterNamesModule
 @Getter
 @ToString
 public class Student {
-    private String name;
+    private final String name;
 }
 ```
 
