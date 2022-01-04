@@ -52,9 +52,9 @@ public class Student {
 ```java
 ObjectMapper mapper = new ObjectMapper().registerModule(new ParameterNamesModule());
 ```
+
 2. @JsonCreator 선언
 ```java
-
 @AllArgsConstructor(onConstructor = @_(@JsonCreator))
 @Getter
 @ToString
@@ -62,6 +62,7 @@ public class Student {
     private String name;
 }
 ```
+
 
 ## 주의점
 - 위 에러의 경우 받은 데이터를 deserialize 할 때 발생한다.
