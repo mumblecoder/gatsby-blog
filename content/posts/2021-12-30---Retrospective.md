@@ -2,7 +2,7 @@
 title: 2021년 회고
 date: "2021-12-30T17:50:00.000Z"
 template: "post"
-draft: false
+draft: true
 slug: "2021-review"
 category: "Review"
 tags:
